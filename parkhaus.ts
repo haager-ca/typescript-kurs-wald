@@ -10,9 +10,15 @@ class Auto {
 
 class Parkhaus {
     private autos: Auto[] = []
+    private ort: string;
     public autosHinzufuegen(auto: Auto) {
         this.autos.push(auto)
     }
+
+    constructor(ort: string = "München") {
+        this.ort = ort;
+    }
+
 }
 
 const auto1 = new Auto();

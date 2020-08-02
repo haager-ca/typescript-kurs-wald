@@ -15,10 +15,13 @@ class Baum {
 
 class Wald {
     private baeme: Baum[] = []
+    private ort: string;
     public baumeHinzufuegen(baum: Baum) {
         this.baeme.push(baum)
     }
-
+    constructor(ort: string = "Kempten") {
+        this.ort = ort
+    }
 }
 
 const baum1 = new Baum("Fichte");
