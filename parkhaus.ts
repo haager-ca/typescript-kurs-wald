@@ -24,6 +24,7 @@ class Parkhaus {
 const auto1 = new Auto();
 const auto2 = new Auto("Mercedes");
 const auto3 = new Auto("BMW");
+const auto4 = new Auto("MG");
 
 const parkhaus = new Parkhaus();
 parkhaus.autosHinzufuegen(auto1);
