@@ -11,6 +11,7 @@ class Drohne {
 class LoadingStation {
     private drohnen: Drohne[] = []
     private ort: string;
+    public countDrohnes: number;
 
 
     constructor(ort: string = "München") {
