@@ -1,0 +1,6 @@
+class Snack {
+    private price: number;
+    private productNr: number;
+    private sale: number;
+    private name: String;
+}
