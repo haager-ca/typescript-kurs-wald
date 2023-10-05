@@ -25,6 +25,7 @@ const auto1 = new Auto();
 const auto2 = new Auto("Mercedes");
 const auto3 = new Auto("BMW");
 const auto4 = new Auto("MG");
+const auto5 = new Auto("Tesla")
 
 const parkhaus = new Parkhaus();
 parkhaus.autosHinzufuegen(auto1);
