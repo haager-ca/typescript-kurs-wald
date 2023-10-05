@@ -7,4 +7,5 @@ class Snack {
 
 class SnackAutomat {
     private id: number;
+    private money: number;
 }
