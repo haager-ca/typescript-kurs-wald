@@ -4,3 +4,7 @@ class Snack {
     private sale: number;
     private name: String;
 }
+
+class SnackAutomat {
+    private id: number;
+}
